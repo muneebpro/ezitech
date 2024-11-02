@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+  #top-area {
+    display: block;
+  }
+}
+/* **********top-bar css */
+.top-bar {
+  border-top: 5px solid #00bcd4;
+  border-bottom: 1px solid #dfe5e8;
+  color: #5f727f;
+  padding: 10px 30px;
+  position: relative;
+  background-color: #f4f6f7;
+  height: 27px;
+  line-height: 30px;
+  display: flex;
+  letter-spacing: 0.3px;
+}
+.address {
+  display: flex;
+  /* display: inline-block; */
+  font-size: 12.5px;
+  padding: 0 17px;
+  vertical-align: top;
+}
+.address img {
+  padding-top: 2px;
+  padding-right: 3px;
+  width: 17px;
+  vertical-align: sub;
+  /* color: #5f727f; */
+  filter: grayscale(10%);
+}
+.phone {
+  font-size: 12.5px;
+  padding-left: 0.2%;
+}
+.phone img {
+  width: 16px;
+  vertical-align: sub;
+}
+.phone a {
+  color: #5f727f;
+}
+.email {
+  font-size: 12.5px;
+  padding-left: 2.4%;
+  color: #5f727f;
+}
+.email img {
+  width: 17px;
+  vertical-align: sub;
+}
+.email a {
+  color: #5f727f;
+}
+.vertical_line {
+  border-left: 1px solid #dbdada;
+  position: absolute;
+  top: 0;
+  left: 64.5%;
+  height: 47px;
+}
+.vertical_line2 {
+  border-left: 1px solid #dbdada;
+  position: absolute;
+  top: 0;
+  left: 79%;
+  height: 47px;
+}
+.social_media {
+  display: flex;
+  gap: 30%;
+  padding-left: 6.5%;
+}
+.social_media a {
+  color: #5f727f;
+}
+/* ******top-bar css end******** */
+
+header {
+  background: transparent;
+  /* vertical-align: middle; */
+  color: white;
+  padding: 1em 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: rgb(150, 143, 143);
+  text-decoration: none;
+}
+.anniversary-button {
+  background-image: url("https://www.eziline.com/wp-content/uploads/71dd02f49176464168ee8120e90b1bed-1.png");
+  color: white;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  border: 2px solid goldenrod;
+  height: 45px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.anniversary-button:hover {
+  background: transparent;
+}
+.search-button {
+  background: gray;
+  font-size: 20px;
+  padding: 0;
+  padding-left: 2.4%;
+  color: white;
+}
+
+.hero {
+  background: url("hero-bg.jpg") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 5em 0;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5em;
+}
+
+button {
+  /* background: #007bff; */
+  color: white;
+  border: none;
+  padding: 1em 2em;
+  cursor: pointer;
+}
